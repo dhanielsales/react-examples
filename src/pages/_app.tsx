@@ -1,12 +1,13 @@
 import { NextPage } from 'next';
 import { AppProps } from 'next/app';
 
-import ThemeContainer from '~/contexts/theme/ThemeContainer';
+import { GlobalStyles } from '~/styles/global';
 
 const App: NextPage<AppProps> = ({ Component, pageProps }) => (
-  <ThemeContainer>
+  <>
+    <GlobalStyles />
     <Component {...pageProps} />
-  </ThemeContainer>
+  </>
 );
 
 export default App;

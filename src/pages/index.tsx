@@ -1,11 +1,7 @@
-import { Box, Text } from '@chakra-ui/react';
+import Home from '~/modules/HomePage';
 
-const Home = () => {
-  return (
-    <Box bg="red.400">
-      <Text fontSize="6xl">Home</Text>
-    </Box>
-  );
+const Screen: React.FC = () => {
+  return <Home />;
 };
 
-export default Home;
+export default Screen;
