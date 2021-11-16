@@ -47,7 +47,6 @@ const Steps: React.ForwardRefRenderFunction<StepsFunctions, StepsProps> = (
           </Fragment>
         ))}
       </StepBox>
-      {currentStep}
     </Container>
   );
 };

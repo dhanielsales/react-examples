@@ -30,6 +30,6 @@ export const Footer = styled.div`
   height: auto;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   margin-top: 20px;
 `;
